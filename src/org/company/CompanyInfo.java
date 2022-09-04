@@ -17,6 +17,10 @@ public class CompanyInfo {
 		System.out.println("Chennai");
 	}
 	
+	private void tco2() {
+     System.out.println("method 4");
+	}
+	
 	
 	public static void main(String[] args) {
 		
@@ -25,6 +29,7 @@ public class CompanyInfo {
 		ci.companyId();
 		ci.companyName();
 		ci.companyAddress();
+		ci.tco2();
 		
 	}
 
